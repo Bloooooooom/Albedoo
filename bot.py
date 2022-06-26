@@ -18,7 +18,7 @@ from core.config import Config
 logger = get_logger(__name__)
 
 
-class LoliBot(commands.Bot):
+class AlbedoBot(commands.Bot):
     def __init__(self):
         super().__init__(intents=discord.Intents.all())
 
@@ -186,7 +186,7 @@ class LoliBot(commands.Bot):
 
 
 def main():
-    bot = LoliBot()
+    bot = AlbedoBot()
     bot.run()
 
 
